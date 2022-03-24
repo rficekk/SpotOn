@@ -1,0 +1,35 @@
+{
+  "name": "spoton-task",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/webdriverio": "^4.13.3",
+    "@wdio/cli": "^7.18.1",
+    "@wdio/cucumber-framework": "^7.19.0",
+    "@wdio/local-runner": "^7.18.1",
+    "@wdio/spec-reporter": "^7.18.0",
+    "chromedriver": "^99.0.0",
+    "jest": "^27.5.1",
+    "wdio-chromedriver-service": "^7.3.1",
+    "wdio-cucumberjs-json-reporter": "^4.4.1"
+  },
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "main": "wdio.conf.js",
+  "dependencies": {
+    "expect-webdriverio": "^3.2.0",
+    "webdriverio": "^7.19.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/cucumber-framework"
+    ]
+  }
+}
